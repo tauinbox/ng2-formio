@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var index_1 = require("./src/modules/resource/index");
+exports.FormioResource = index_1.FormioResource;
+exports.FormioResources = index_1.FormioResources;
+exports.FormioResourceConfig = index_1.FormioResourceConfig;
+exports.FormioResourceRoutes = index_1.FormioResourceRoutes;
+exports.FormioResourceService = index_1.FormioResourceService;
+exports.FormioResourceComponent = index_1.FormioResourceComponent;
+exports.FormioResourceViewComponent = index_1.FormioResourceViewComponent;
+exports.FormioResourceCreateComponent = index_1.FormioResourceCreateComponent;
+exports.FormioResourceDeleteComponent = index_1.FormioResourceDeleteComponent;
+exports.FormioResourceEditComponent = index_1.FormioResourceEditComponent;
+exports.FormioResourceIndexComponent = index_1.FormioResourceIndexComponent;

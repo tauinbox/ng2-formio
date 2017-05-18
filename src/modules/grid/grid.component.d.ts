@@ -1,0 +1,32 @@
+import { EventEmitter, OnInit } from '@angular/core';
+export declare class FormioGridComponent implements OnInit {
+    src: string;
+    onForm: Promise<any>;
+    query: any;
+    refresh: EventEmitter<Object>;
+    select: EventEmitter<Object>;
+    error: EventEmitter<any>;
+    columns: Array<any>;
+    rows: Array<any>;
+    formio: any;
+    form: any;
+    total: number;
+    page: number;
+    firstItem: number;
+    lastItem: number;
+    skip: number;
+    isLoading: boolean;
+    constructor();
+    loadGrid(src?: string): void;
+    ngOnInit(): void;
+    ngOnChanges(changes: any): void;
+    setupColumns(): void;
+    loading: boolean;
+    onError(error: any): void;
+    refreshGrid(query?: any): void;
+    setPage(num?: number): void;
+    sortColumn(column: any): void;
+    pageChanged(page: any): void;
+    onClick(row: any): void;
+    data(row: any, col: any): any;
+}
